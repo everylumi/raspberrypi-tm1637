@@ -12,7 +12,7 @@ For example, the [Grove - 4 Digit Display module](http://wiki.seeed.cc/Grove-4-D
 Make sure that you are using Python 3.
 
 ```sh
-d Downloads/  
+cd Downloads/  
 git clone https://github.com/everylumi/raspberrypi-tm1637.git  
 cd raspberrypi-tm1637/  
 sudo python3 setup.py install
