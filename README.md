@@ -11,8 +11,11 @@ For example, the [Grove - 4 Digit Display module](http://wiki.seeed.cc/Grove-4-D
 
 This project is available through [pip](https://www.w3schools.com/python/python_pip.asp). Make sure that you are using Python 3.
 
-```
-$ pip3 install raspberrypi-tm1637
+```sh
+d Downloads/  
+git clone https://github.com/everylumi/raspberrypi-tm1637.git  
+cd raspberrypi-tm1637/  
+sudo python3 setup.py install
 ```
 
 ## Examples
@@ -52,7 +55,7 @@ tm.number(-123)
 tm.temperature(24)
 ```
 
-For more detailed examples, see [demo.py](https://github.com/depklyon/raspberrypi-tm1637/blob/master/demo.py)
+For more detailed examples, see [demo.py](https://github.com/everylumi/raspberrypi-tm1637/blob/master/demo.py)
 
 # Seven Segment Font
 
@@ -173,11 +176,6 @@ String starts off-screen and scrolls until off-screen at 4 FPS by default.
 ```python
 scroll(string, delay=250)
 ```
-
-## Parts
-
-* [Grove 4 Digit Display](https://www.seeedstudio.com/grove-4digital-display-p-1198.html) $5.90 USD
-* [Grove Male Jumper Cable](https://www.seeedstudio.com/Grove-4-pin-Male-Jumper-to-Grove-4-pin-Conversion-Cable-%285-PCs-per-Pack%29-p-1565.html) $2.90 USD
 
 ## Connections
 
