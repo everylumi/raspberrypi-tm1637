@@ -9,7 +9,7 @@ For example, the [Grove - 4 Digit Display module](http://wiki.seeed.cc/Grove-4-D
 
 ## Installation
 
-This project is available through [pip](https://www.w3schools.com/python/python_pip.asp). Make sure that you are using Python 3.
+Make sure that you are using Python 3.
 
 ```sh
 d Downloads/  
