@@ -8,14 +8,18 @@ For example, the [Grove - 4 Digit Display module](http://wiki.seeed.cc/Grove-4-D
 ![demo](https://github.com/depklyon/raspberrypi-tm1637/raw/master/docs/raspberry_tm1637.gif)
 
 ## Installation
-
 Make sure that you are using Python 3.
 
 ```sh
-cd Downloads/  
+cd Downloads/  && sudo rm -rf raspberrypi-tm1637
 git clone https://github.com/everylumi/raspberrypi-tm1637.git  
 cd raspberrypi-tm1637/  
 sudo python3 setup.py install
+```
+
+## Uninstallation
+```sh
+sudo pip3 uninstall raspberrypi-tm1637
 ```
 
 ## Examples
